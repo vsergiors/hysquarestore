@@ -69,12 +69,20 @@ header {
   padding: 20px;
   box-shadow: 0 0 10px #00ffff55;
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 30px; /* Aumentamos la separación entre los productos */
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .producto:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #00ffffaa;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .producto h3 {
